@@ -1,9 +1,9 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-if (window.lucide) {
-    lucide.createIcons();
-}
+    if (window.lucide) {
+        lucide.createIcons();
+    }
 
     const menuToggle = document.querySelector(".menu-toggle");
     const navLinks = document.querySelector(".nav-links");
@@ -120,6 +120,7 @@ if (window.lucide) {
         });
     }
 
+
     function updateBackToTop() {
         if (!backToTop) return;
 
@@ -127,15 +128,18 @@ if (window.lucide) {
     }
 
     if (backToTop) {
-        updateBackToTop();
-
         window.addEventListener("scroll", updateBackToTop, {
             passive: true
         });
 
-        backToTop.addEventListener("click", function () {
+        updateBackToTop();
+
+        backToTop.addEventListener("click", function (event) {
+            event.preventDefault();
+
             window.scrollTo({
                 top: 0,
+                left: 0,
                 behavior: "smooth"
             });
         });
@@ -269,3 +273,47 @@ if (window.lucide) {
     }
 });
 
+
+const contactToggle = document.getElementById("floatingContactToggle");
+const contactPanel = document.getElementById("floatingContactPanel");
+const minimizeButton = document.getElementById("minimizeContactPanel");
+
+function openContactPanel() {
+    if (!contactPanel || !contactToggle) return;
+
+    contactPanel.hidden = false;
+    contactPanel.classList.add("active");
+    contactToggle.setAttribute("aria-expanded", "true");
+
+    if (window.lucide) {
+        lucide.createIcons();
+    }
+}
+
+function closeContactPanel() {
+    if (!contactPanel || !contactToggle) return;
+
+    contactPanel.classList.remove("active");
+    contactPanel.hidden = true;
+    contactToggle.setAttribute("aria-expanded", "false");
+}
+
+if (contactToggle && contactPanel) {
+    contactToggle.addEventListener("click", function () {
+        if (contactPanel.hidden) {
+            openContactPanel();
+        } else {
+            closeContactPanel();
+        }
+    });
+}
+
+if (minimizeButton) {
+    minimizeButton.addEventListener("click", closeContactPanel);
+}
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        closeContactPanel();
+    }
+});
