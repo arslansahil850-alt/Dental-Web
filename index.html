@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description"
+        content="Discover professional dental care, preventive dentistry, cosmetic treatments, and personalized dental services. Book your appointment today.">
+    <title>Projects | Arslan weblab</title>
+    <link rel="icon" type="image/png" href="logo.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="announcement-bar">
+        <div class="container announcement-content">
+            <p><i data-lucide="heart-pulse"></i> Caring for your smile, every single day.</p>
+            <a href="#contact">Visit Our Clinic <i data-lucide="arrow-up-right"></i></a>
+        </div>
+    </div>
+
+    <header class="site-header" id="home">
+        <div class="container navbar">
+            <a href="#home" class="brand" aria-label="SmileCare Dental Clinic home">
+                <span class="brand-text">Smile<span>Care</span><small>DENTAL CLINIC</small></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#doctors" class="nav-link">Our Dentists</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link mobile-contact-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="tel:+923001234567" class="nav-phone">
+                    <span class="phone-icon"><i data-lucide="phone"></i></span>
+                    <span><small>Call us today</small><strong>+92 300 1234567</strong></span>
+                </a>
+                <a href="#appointment" class="btn btn-primary nav-appointment">Book Appointment <i
+                        data-lucide="arrow-up-right"></i></a>
+                <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu"
+                    aria-expanded="false" aria-controls="navLinks">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
+
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR TRUSTED DENTAL PARTNER</div>
+                    <h1>Healthy Teeth.<br>Confident <span>Smiles.</span></h1>
+                    <p class="hero-description">Experience gentle, modern dental care designed around you. From routine
+                        checkups to smile transformations, we're here for every reason to smile.</p>
+
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-primary">Book Your Visit <i
+                                data-lucide="arrow-up-right"></i></a>
+                        <a href="#services" class="btn btn-secondary"><span class="play-icon"><i
+                                    data-lucide="play"></i></span> Explore Services</a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="avatar-stack">
+                            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=100&q=80"
+                                alt="Dental care professional">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=100&q=80"
+                                alt="Medical professional">
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=100&q=80"
+                                alt="Healthcare professional">
+                        </div>
+                        <div class="trust-copy"><strong>Care that puts you first</strong><span>Professional,
+                                personalized attention</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-image-frame">
+                        <img class="hero-image"
+                            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1000&q=85"
+                            alt="Modern dental clinic with professional dental equipment">
+                    </div>
+
+                    <div class="floating-card experience-card">
+                        <span class="floating-icon"><i data-lucide="shield-check"></i></span>
+                        <div><strong>Gentle Care</strong><span>Comfort comes first</span></div>
+                    </div>
+
+                    <div class="floating-card appointment-card">
+                        <span class="appointment-card-icon"><i data-lucide="calendar-check"></i></span>
+                        <div><strong>Ready to smile?</strong><a href="#appointment">Schedule a visit <i
+                                    data-lucide="arrow-up-right"></i></a></div>
+                    </div>
+
+                    <div class="hero-circle-text">YOUR SMILE MATTERS</div>
+                </div>
+            </div>
+
+            <div class="container hero-bottom">
+                <div class="hero-bottom-item"><i data-lucide="check-circle-2"></i><span>Personalized Treatment</span>
+                </div>
+                <div class="hero-bottom-item"><i data-lucide="check-circle-2"></i><span>Modern Dental Technology</span>
+                </div>
+                <div class="hero-bottom-item"><i data-lucide="check-circle-2"></i><span>Friendly Dental Team</span>
+                </div>
+                <div class="hero-bottom-item"><i data-lucide="check-circle-2"></i><span>Patient-Focused Care</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section stats-section" aria-label="Clinic highlights">
+            <div class="container stats-grid">
+                <div class="stat-item"><span class="stat-number">01</span><span class="stat-label">Personalized
+                        Care</span></div>
+                <div class="stat-item"><span class="stat-number">02</span><span class="stat-label">Modern
+                        Treatments</span></div>
+                <div class="stat-item"><span class="stat-number">03</span><span class="stat-label">Friendly
+                        Professionals</span></div>
+                <div class="stat-item"><span class="stat-number">04</span><span class="stat-label">Comfortable
+                        Visits</span></div>
+            </div>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-visual">
+                    <div class="about-main-image">
+                        <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=900&q=85"
+                            alt="Dentist examining a patient in a dental clinic" loading="lazy">
+                    </div>
+                    <div class="about-accent-shape"></div>
+                    <div class="about-note">
+                        <span class="about-note-icon"><i data-lucide="heart-handshake"></i></span>
+                        <div><strong>Your comfort matters</strong>
+                            <p>Every visit, every smile.</p>
+                        </div>
+                    </div>
+                    <div class="about-image-label"><i data-lucide="sparkles"></i> A healthier smile starts here</div>
+                </div>
+
+                <div class="about-content">
+                    <div class="eyebrow"><span class="eyebrow-dot"></span> GET TO KNOW US</div>
+                    <h2>Dental care that feels <span>different.</span></h2>
+                    <p class="section-description">We believe a great dental experience begins with listening. Our
+                        approach combines professional care, clear communication, and personalized treatment plans to
+                        help you feel confident at every visit.</p>
+                    <p class="section-description">Whether you're here for a routine checkup or a more advanced
+                        treatment, we're committed to making your dental journey as comfortable and straightforward as
+                        possible.</p>
+
+                    <div class="about-features">
+                        <div class="about-feature"><span><i data-lucide="check"></i></span>
+                            <div><strong>Care tailored to you</strong>
+                                <p>Treatment recommendations based on your needs.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature"><span><i data-lucide="check"></i></span>
+                            <div><strong>Clear communication</strong>
+                                <p>Understand your options before treatment begins.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature"><span><i data-lucide="check"></i></span>
+                            <div><strong>A welcoming environment</strong>
+                                <p>A friendly team ready to answer your questions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#appointment" class="btn btn-primary">Get to Know Our Care <i
+                            data-lucide="arrow-up-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="eyebrow"><span class="eyebrow-dot"></span> WHAT WE OFFER</div>
+                        <h2>Complete care for<br>every <span>smile.</span></h2>
+                    </div>
+                    <div class="section-heading-side">
+                        <p class="section-description">Explore dental services designed to support your oral health,
+                            improve comfort, and help you smile with confidence.</p><a href="#appointment"
+                            class="text-link">Discuss your needs <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon"><i data-lucide="shield-check"></i></div>
+                        <span class="service-number">01</span>
+                        <h3>General Dentistry</h3>
+                        <p>Routine examinations, preventive care, and treatment planning to help maintain healthy teeth
+                            and gums.</p>
+                        <a href="#appointment" class="service-link" aria-label="Ask about general dentistry"><i
+                                data-lucide="arrow-up-right"></i></a>
+                    </article>
+
+                    <article class="service-card featured-service">
+                        <div class="service-icon"><i data-lucide="sparkles"></i></div>
+                        <span class="service-number">02</span>
+                        <h3>Teeth Whitening</h3>
+                        <p>Professional whitening options with an individualized approach to help brighten your smile
+                            safely.</p>
+                        <a href="#appointment" class="service-link" aria-label="Ask about teeth whitening"><i
+                                data-lucide="arrow-up-right"></i></a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon"><i data-lucide="smile"></i></div>
+                        <span class="service-number">03</span>
+                        <h3>Cosmetic Dentistry</h3>
+                        <p>Explore cosmetic options that can improve the appearance of your teeth and your smile.</p>
+                        <a href="#appointment" class="service-link" aria-label="Ask about cosmetic dentistry"><i
+                                data-lucide="arrow-up-right"></i></a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon"><i data-lucide="activity"></i></div>
+                        <span class="service-number">04</span>
+                        <h3>Root Canal Treatment</h3>
+                        <p>Assessment and treatment options for teeth affected by deep decay or infection.</p>
+                        <a href="#appointment" class="service-link" aria-label="Ask about root canal treatment"><i
+                                data-lucide="arrow-up-right"></i></a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon"><i data-lucide="layers"></i></div>
+                        <span class="service-number">05</span>
+                        <h3>Braces & Alignment</h3>
+                        <p>Consultations about orthodontic treatment to improve tooth alignment and bite function.</p>
+                        <a href="#appointment" class="service-link" aria-label="Ask about braces and alignment"><i
+                                data-lucide="arrow-up-right"></i></a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon"><i data-lucide="baby"></i></div>
+                        <span class="service-number">06</span>
+                        <h3>Children's Dentistry</h3>
+                        <p>Age-appropriate dental visits focused on prevention, oral hygiene, and developing healthy
+                            habits.</p>
+                        <a href="#appointment" class="service-link" aria-label="Ask about children's dentistry"><i
+                                data-lucide="arrow-up-right"></i></a>
+                    </article>
+                </div>
+
+                <div class="services-bottom"><span>Not sure which service you need?</span><a href="#appointment"
+                        class="text-link">Talk to our team <i data-lucide="arrow-right"></i></a></div>
+            </div>
+        </section>
+
+        <section class="section why-section">
+            <div class="container why-grid">
+                <div class="why-content">
+                    <div class="eyebrow"><span class="eyebrow-dot"></span> THE SMILECARE DIFFERENCE</div>
+                    <h2>A little more care.<br>A lot more <span>confidence.</span></h2>
+                    <p class="section-description">Choosing a dentist should feel simple. We focus on thoughtful care,
+                        clear explanations, and a comfortable experience from your first call to your follow-up visit.
+                    </p>
+
+                    <div class="why-list">
+                        <div class="why-item"><span class="why-icon"><i data-lucide="messages-square"></i></span>
+                            <div>
+                                <h3>Honest, clear guidance</h3>
+                                <p>We explain recommended treatments and available options so you can make informed
+                                    decisions.</p>
+                            </div>
+                        </div>
+                        <div class="why-item"><span class="why-icon"><i data-lucide="calendar-clock"></i></span>
+                            <div>
+                                <h3>Convenient appointments</h3>
+                                <p>Request a visit that fits your schedule and let our team help with the next steps.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="why-item"><span class="why-icon"><i data-lucide="heart"></i></span>
+                            <div>
+                                <h3>Comfort-first approach</h3>
+                                <p>We listen to your concerns and work to make every visit more reassuring.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#appointment" class="btn btn-primary">Plan Your Visit <i
+                            data-lucide="arrow-up-right"></i></a>
+                </div>
+
+                <div class="why-visual">
+                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=85"
+                        alt="Modern dental treatment room" loading="lazy">
+                    <div class="why-image-overlay"><span class="why-overlay-icon"><i
+                                data-lucide="shield-check"></i></span>
+                        <div><strong>Care you can understand</strong>
+                            <p>Personal attention at every step.</p>
+                        </div>
+                    </div>
+                    <div class="why-decoration"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section doctors-section" id="doctors">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="eyebrow"><span class="eyebrow-dot"></span> MEET YOUR DENTAL TEAM</div>
+                        <h2>People behind<br>your <span>smile.</span></h2>
+                    </div>
+                    <div class="section-heading-side">
+                        <p class="section-description">Meet our sample dental team. Replace these profiles with your
+                            clinic's verified dentist details before publishing.</p>
+                    </div>
+                </div>
+
+                <div class="doctors-grid">
+                    <article class="doctor-card">
+                        <div class="doctor-image"><img
+                                src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=700&q=85"
+                                alt="Portrait of a dental professional" loading="lazy"><span class="doctor-tag">General
+                                Dentistry</span></div>
+                        <div class="doctor-info">
+                            <h3>Dr. Ayesha Khan</h3>
+                            <p>General Dentist</p>
+                            <div class="doctor-footer"><span><i data-lucide="user-round-check"></i> Patient-focused
+                                    care</span><a href="#appointment"
+                                    aria-label="Request an appointment with Dr. Ayesha Khan"><i
+                                        data-lucide="arrow-up-right"></i></a></div>
+                        </div>
+                    </article>
+                    <article class="doctor-card">
+                        <div class="doctor-image"><img
+                                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=700&q=85"
+                                alt="Portrait of a male medical professional" loading="lazy"><span
+                                class="doctor-tag">Restorative Care</span></div>
+                        <div class="doctor-info">
+                            <h3>Dr. Ahmed Malik</h3>
+                            <p>Restorative Dentist</p>
+                            <div class="doctor-footer"><span><i data-lucide="user-round-check"></i> Personalized
+                                    treatment</span><a href="#appointment"
+                                    aria-label="Request an appointment with Dr. Ahmed Malik"><i
+                                        data-lucide="arrow-up-right"></i></a></div>
+                        </div>
+                    </article>
+                    <article class="doctor-card">
+                        <div class="doctor-image"><img
+                                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=700&q=85"
+                                alt="Portrait of a female medical professional" loading="lazy"><span
+                                class="doctor-tag">Family Dentistry</span></div>
+                        <div class="doctor-info">
+                            <h3>Dr. Sara Hassan</h3>
+                            <p>Family Dentist</p>
+                            <div class="doctor-footer"><span><i data-lucide="user-round-check"></i> Gentle dental
+                                    visits</span><a href="#appointment"
+                                    aria-label="Request an appointment with Dr. Sara Hassan"><i
+                                        data-lucide="arrow-up-right"></i></a></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="appointment-section section" id="appointment">
+            <div class="container appointment-grid">
+                <div class="appointment-content">
+                    <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> YOUR NEXT STEP</div>
+                    <h2>Let's make room<br>for a <span>healthier smile.</span></h2>
+                    <p>Request an appointment with our team. Share a few details and we'll help you arrange a suitable
+                        visit.</p>
+
+                    <div class="appointment-benefits">
+                        <div><i data-lucide="check-circle-2"></i><span>Easy appointment requests</span></div>
+                        <div><i data-lucide="check-circle-2"></i><span>Friendly scheduling assistance</span></div>
+                        <div><i data-lucide="check-circle-2"></i><span>Care tailored to your needs</span></div>
+                    </div>
+
+                    <div class="appointment-contact"><span class="appointment-contact-icon"><i
+                                data-lucide="phone-call"></i></span>
+                        <div><small>Prefer to speak with us?</small><a href="tel:+923001234567">+92 300 1234567</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="appointment-form-card">
+                    <div class="form-heading">
+                        <div>
+                            <h3>Request an Appointment</h3>
+                            <p>Fill out the form to get started.</p>
+                        </div><span class="form-heading-icon"><i data-lucide="calendar-days"></i></span>
+                    </div>
+
+                    <form id="appointmentForm">
+                        <div class="form-row">
+                            <div class="form-group"><label for="patientName">Full Name *</label><input type="text"
+                                    id="patientName" name="patientName" placeholder="Enter your name"
+                                    autocomplete="name" required></div>
+                            <div class="form-group"><label for="patientPhone">Phone Number *</label><input type="tel"
+                                    id="patientPhone" name="patientPhone" placeholder="+92 3XX XXXXXXX"
+                                    autocomplete="tel" required></div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group"><label for="patientEmail">Email Address</label><input type="email"
+                                    id="patientEmail" name="patientEmail" placeholder="you@example.com"
+                                    autocomplete="email"></div>
+                            <div class="form-group"><label for="serviceType">Dental Service *</label><select
+                                    id="serviceType" name="serviceType" required>
+                                    <option value="" disabled selected>Select a service</option>
+                                    <option>General Dentistry</option>
+                                    <option>Teeth Whitening</option>
+                                    <option>Cosmetic Dentistry</option>
+                                    <option>Root Canal Treatment</option>
+                                    <option>Braces & Alignment</option>
+                                    <option>Children's Dentistry</option>
+                                    <option>Consultation / Not Sure</option>
+                                </select></div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group"><label for="appointmentDate">Preferred Date *</label><input
+                                    type="date" id="appointmentDate" name="appointmentDate" required></div>
+                            <div class="form-group"><label for="appointmentTime">Preferred Time *</label><select
+                                    id="appointmentTime" name="appointmentTime" required>
+                                    <option value="" disabled selected>Select a time</option>
+                                    <option>09:00 AM - 11:00 AM</option>
+                                    <option>11:00 AM - 01:00 PM</option>
+                                    <option>02:00 PM - 04:00 PM</option>
+                                    <option>04:00 PM - 06:00 PM</option>
+                                </select></div>
+                        </div>
+
+                        <div class="form-group"><label for="patientMessage">Anything we should know?
+                                <span>(Optional)</span></label><textarea id="patientMessage" name="patientMessage"
+                                rows="3" placeholder="Tell us briefly how we can help..."></textarea></div>
+
+                        <label class="form-consent"><input type="checkbox" name="contactConsent" required><span>I agree
+                                to be contacted about my appointment request.</span></label>
+                        <button type="submit" class="btn btn-primary form-submit">Request My Appointment <i
+                                data-lucide="arrow-up-right"></i></button>
+                        <p class="form-notice" id="formNotice" role="status" aria-live="polite">This demo form does not
+                            confirm a real appointment until connected to a booking service.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section testimonials-section" id="testimonials">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="eyebrow"><span class="eyebrow-dot"></span> PATIENT EXPERIENCES</div>
+                        <h2>Every smile has<br>a <span>story.</span></h2>
+                    </div>
+                    <div class="section-heading-side">
+                        <p class="section-description">A welcoming dental experience begins with trust, communication,
+                            and thoughtful care.</p>
+                    </div>
+                </div>
+
+                <div class="testimonials-grid">
+                    <article class="testimonial-card">
+                        <div class="testimonial-stars" aria-label="Five out of five stars"><i data-lucide="star"></i><i
+                                data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i
+                                data-lucide="star"></i></div>
+                        <p class="testimonial-quote">"The team explained every step clearly and made the whole visit
+                            feel much less stressful. I really appreciated how carefully my questions were answered."
+                        </p>
+                        <div class="testimonial-author"><span class="testimonial-avatar">F</span>
+                            <div><strong>Fatima R.</strong><span>Patient feedback sample</span></div><i
+                                data-lucide="quote" class="quote-mark"></i>
+                        </div>
+                    </article>
+                    <article class="testimonial-card testimonial-card-featured">
+                        <div class="testimonial-stars" aria-label="Five out of five stars"><i data-lucide="star"></i><i
+                                data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i
+                                data-lucide="star"></i></div>
+                        <p class="testimonial-quote">"Booking was straightforward, the clinic felt welcoming, and I
+                            understood my treatment options before making any decisions."</p>
+                        <div class="testimonial-author"><span class="testimonial-avatar">U</span>
+                            <div><strong>Usman A.</strong><span>Patient feedback sample</span></div><i
+                                data-lucide="quote" class="quote-mark"></i>
+                        </div>
+                    </article>
+                    <article class="testimonial-card">
+                        <div class="testimonial-stars" aria-label="Five out of five stars"><i data-lucide="star"></i><i
+                                data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i
+                                data-lucide="star"></i></div>
+                        <p class="testimonial-quote">"A friendly experience from start to finish. I liked having my
+                            questions answered in a simple and understandable way."</p>
+                        <div class="testimonial-author"><span class="testimonial-avatar">A</span>
+                            <div><strong>Amina K.</strong><span>Patient feedback sample</span></div><i
+                                data-lucide="quote" class="quote-mark"></i>
+                        </div>
+                    </article>
+                </div>
+                <p class="content-disclaimer">The testimonials above are illustrative placeholders, not verified patient
+                    reviews. Replace them with authorized, genuine feedback before publishing.</p>
+            </div>
+        </section>
+
+        <section class="section faq-section" id="faq">
+            <div class="container faq-grid">
+                <div class="faq-intro">
+                    <div class="eyebrow"><span class="eyebrow-dot"></span> GOT QUESTIONS?</div>
+                    <h2>Good questions.<br><span>Clear answers.</span></h2>
+                    <p class="section-description">Here are answers to common questions about visiting our dental
+                        clinic.</p>
+                    <div class="faq-help"><span><i data-lucide="messages-square"></i></span>
+                        <div><strong>Still need help?</strong><a href="#contact">Contact our team <i
+                                    data-lucide="arrow-up-right"></i></a></div>
+                    </div>
+                </div>
+
+                <div class="faq-list">
+                    <details class="faq-item" open>
+                        <summary>How can I book a dental appointment?<span class="faq-chevron"><i
+                                    data-lucide="plus"></i></span></summary>
+                        <p>You can submit the appointment request form on this page or contact the clinic directly by
+                            phone. Your visit is not confirmed until the clinic responds.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>What should I bring to my first visit?<span class="faq-chevron"><i
+                                    data-lucide="plus"></i></span></summary>
+                        <p>Bring any relevant dental records, a list of current medications, and details of any
+                            allergies or health concerns that may affect your care.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>How often should I visit a dentist?<span class="faq-chevron"><i
+                                    data-lucide="plus"></i></span></summary>
+                        <p>Many people benefit from regular dental checkups, but the recommended interval depends on
+                            your oral health and your dentist's advice.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Do you offer cosmetic dental treatments?<span class="faq-chevron"><i
+                                    data-lucide="plus"></i></span></summary>
+                        <p>Cosmetic options may include professional whitening and other treatments. A dental
+                            consultation can help determine which options are suitable for you.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>What if I feel nervous about dental treatment?<span class="faq-chevron"><i
+                                    data-lucide="plus"></i></span></summary>
+                        <p>Tell the dental team about your concerns before treatment. They can explain the process and
+                            discuss appropriate ways to help you feel more comfortable.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="eyebrow"><span class="eyebrow-dot"></span> WE'RE HERE TO HELP</div>
+                        <h2>Come say <span>hello.</span></h2>
+                    </div>
+                    <div class="section-heading-side">
+                        <p class="section-description">Have a question or want to plan your first visit? Reach out to
+                            our team using the contact details below.</p>
+                    </div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card"><span class="contact-icon"><i data-lucide="map-pin"></i></span>
+                        <h3>Visit Our Clinic</h3>
+                        <p>123 Main Boulevard, Lahore, Pakistan</p><a href="https://maps.google.com/?q=Lahore+Pakistan"
+                            target="_blank" rel="noopener noreferrer" class="text-link">View Map <i
+                                data-lucide="arrow-up-right"></i></a>
+                    </div>
+                    <div class="contact-card"><span class="contact-icon"><i data-lucide="phone"></i></span>
+                        <h3>Call Our Team</h3>
+                        <p>Speak with us about appointments and general enquiries.</p><a href="tel:+923001234567"
+                            class="text-link">+92 300 1234567 <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                    <div class="contact-card"><span class="contact-icon"><i data-lucide="mail"></i></span>
+                        <h3>Email Us</h3>
+                        <p>Send us your questions and appointment enquiries.</p><a href="mailto:hello@smilecare.example"
+                            class="text-link">hello@smilecare.example <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-bottom-grid">
+                    <div class="map-card">
+                        <iframe title="Map showing Lahore, Pakistan"
+                            src="https://maps.google.com/maps?q=Lahore%2C%20Pakistan&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                    </div>
+                    <div class="hours-card">
+                        <div class="hours-heading"><span class="hours-icon"><i data-lucide="clock"></i></span>
+                            <div>
+                                <h3>Clinic Hours</h3>
+                                <p>Plan your visit</p>
+                            </div>
+                        </div>
+                        <div class="hours-row"><span>Monday – Friday</span><strong>09:00 AM – 06:00 PM</strong></div>
+                        <div class="hours-row"><span>Saturday</span><strong>10:00 AM – 04:00 PM</strong></div>
+                        <div class="hours-row"><span>Sunday</span><strong class="hours-closed">Closed</strong></div>
+                        <div class="hours-note"><i data-lucide="info"></i><span>Hours shown are sample details. Please
+                                confirm availability before visiting.</span></div>
+                        <a href="#appointment" class="btn btn-primary hours-button">Request a Visit <i
+                                data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta-section">
+            <div class="container final-cta">
+                <div class="final-cta-icon"><i data-lucide="tooth"></i></div>
+                <div>
+                    <h2>Your smile deserves thoughtful care.</h2>
+                    <p>Take the first step towards a healthier smile with a visit tailored to you.</p>
+                </div>
+                <a href="#appointment" class="btn btn-white">Book an Appointment <i
+                        data-lucide="arrow-up-right"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <div class="footer-brand-column">
+                <a href="#home" class="brand footer-brand" aria-label="SmileCare Dental Clinic home">
+                    <span class="brand-icon"><i data-lucide="tooth"></i></span>
+                    <span class="brand-text">Smile<span>Care</span><small>DENTAL CLINIC</small></span>
+                </a>
+                <p class="footer-description">Thoughtful dental care, a welcoming experience, and a team that puts your
+                    comfort first.</p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explore</h3><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Our
+                    Services</a><a href="#doctors">Our Dentists</a><a href="#testimonials">Testimonials</a>
+            </div>
+            <div class="footer-column">
+                <h3>Our Services</h3><a href="#services">General Dentistry</a><a href="#services">Teeth Whitening</a><a
+                    href="#services">Cosmetic Dentistry</a><a href="#services">Root Canal Treatment</a><a
+                    href="#services">Children's Dentistry</a>
+            </div>
+            <div class="footer-column footer-contact-column">
+                <h3>Get in Touch</h3><a href="tel:+923001234567"><i data-lucide="phone"></i> +92 300 1234567</a><a
+                    href="mailto:hello@smilecare.example"><i data-lucide="mail"></i> hello@smilecare.example</a>
+                <p><i data-lucide="map-pin"></i> 123 Main Boulevard, Lahore, Pakistan</p><a href="#contact"><i
+                        data-lucide="clock"></i> View Clinic Hours</a>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© <span id="currentYear">2026</span> SmileCare Dental Clinic. All rights reserved.</p>
+            <div class="footer-legal"><a href="#privacy">Privacy Policy</a><a href="#terms">Terms of Use</a></div>
+            <a href="#home" class="back-to-top">Back to top <i data-lucide="arrow-up"></i></a>
+        </div>
+
+        <div class="container powered-by">
+            <span>Website crafted with care by</span>
+            <a href="#home" class="codelab-brand" aria-label="My Codelab">
+                <img class="my-logo-pic" src="logo.webp" alt="">
+                <span>My <strong>CodeLab</strong></span>
+            </a>
+        </div>
+    </footer>
+
+    <button class="floating-contact-toggle" id="floatingContactToggle" type="button"
+        aria-label="Open quick contact panel" aria-expanded="false" aria-controls="floatingContactPanel">
+        <i data-lucide="message-circle"></i><span class="floating-toggle-label">Quick Help</span>
+    </button>
+
+    <aside class="floating-contact-panel" id="floatingContactPanel" aria-label="Quick contact panel" hidden>
+        <div class="floating-panel-header">
+            <div class="floating-panel-heading"><span class="floating-panel-icon"><i
+                        data-lucide="heart-pulse"></i></span>
+                <div><strong>How can we help?</strong><small>SmileCare Dental Clinic</small></div>
+            </div>
+            <button type="button" id="minimizeContactPanel" class="minimize-panel-button"
+                aria-label="Minimize quick contact panel"><i data-lucide="minus"></i></button>
+        </div>
+        <div class="floating-panel-body">
+            <p>Have a question or want to schedule a visit? Choose an option below.</p>
+            <a href="tel:+923001234567" class="floating-panel-link"><span><i data-lucide="phone"></i></span>
+                <div><strong>Call the clinic</strong><small>+92 300 1234567</small></div><i
+                    data-lucide="arrow-up-right"></i>
+            </a>
+            <a href="#appointment" class="floating-panel-link" id="panelAppointmentLink"><span><i
+                        data-lucide="calendar-days"></i></span>
+                <div><strong>Request an appointment</strong><small>Choose your preferred date</small></div><i
+                    data-lucide="arrow-up-right"></i>
+            </a>
+            <a href="mailto:hello@smilecare.example" class="floating-panel-link"><span><i data-lucide="mail"></i></span>
+                <div><strong>Send an email</strong><small>Ask us a question</small></div><i
+                    data-lucide="arrow-up-right"></i>
+            </a>
+        </div>
+        <div class="floating-panel-footer"><i data-lucide="clock"></i> Sample clinic hours: Mon–Fri, 9 AM–6 PM</div>
+    </aside>
+
+    <button class="back-to-top-floating" id="backToTopFloating" type="button" aria-label="Back to top"><i
+            data-lucide="arrow-up"></i></button>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
